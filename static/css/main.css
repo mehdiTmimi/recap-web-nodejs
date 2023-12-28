@@ -123,3 +123,10 @@ footer{
     padding: 30px;
     text-align: center;
 }
+#submitBtn:disabled{
+    background: gray;
+    cursor: not-allowed;
+}
+.errorInput{
+    color: red;
+}
